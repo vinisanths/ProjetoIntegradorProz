@@ -41,8 +41,9 @@ Este projeto tem como objetivo criar um **portfolio interativo** para desenvolve
 Este projeto foi desenvolvido com a colaboração dos seguintes integrantes:
 
 - **Vinicius Santos** - [GitHub](https://github.com/vinisanths)
-- **Patrícia A. R. Figueira** - [GitHub](PatthyPotter) 
+- **Patrícia A. R. Figueira** - [GitHub](https://github.com/PatthyPotter)
 - **Alberto Talayer** - [Github](https://github.com/CarlosTalayer)
+- **Camila Fagundes** - [Github](https://github.com/camilafagundes)
 
 ## 📜 Licença
 
