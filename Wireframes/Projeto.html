@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2em;
+        }
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-list li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 20px;
+            border: #ccc 1px solid;
+            border-radius: 5px;
+        }
+        .project-list li:hover {
+            background: #e0e0e0;
+            cursor: pointer;
+        }
+        .project-details {
+            display: none;
+            padding: 10px;
+            border-top: #ccc 1px solid;
+            margin-top: 10px;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projetos</h1>
+    </header>
+    <div class="container">
+        <ul class="project-list">
+            <li>
+                <h2>Projeto 1</h2>
+                <div class="project-details">
+                    <p>Descrição do Projeto 1</p>
+                </div>
+            </li>
+            <li>
+                <h2>Projeto 2</h2>
+                <div class="project-details">
+                    <p>Descrição do Projeto 2</p>
+                </div>
+            </li>
+            <li>
+                <h2>Projeto 3</h2>
+                <div class="project-details">
+                    <p>Descrição do Projeto 3</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const projects = document.querySelectorAll('.project-list li');
+            
+            projects.forEach(project => {
+                project.addEventListener('click', () => {
+                    const details = project.querySelector('.project-details');
+                    if (details.style.display === 'none' || details.style.display === '') {
+                        details.style.display = 'block';
+                    } else {
+                        details.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
