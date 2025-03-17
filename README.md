@@ -44,6 +44,7 @@ Este projeto foi desenvolvido com a colaboração dos seguintes integrantes:
 - **Patrícia A. R. Figueira** - [GitHub](https://github.com/PatthyPotter)
 - **Alberto Talayer** - [Github](https://github.com/CarlosTalayer)
 - **Camila Fagundes** - [Github](https://github.com/camilafagundes)
+- **Sidney Richele** - [Github](https://github.com/Srichelle-dev)
 
 ## 📜 Licença
 
